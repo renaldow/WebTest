@@ -1,0 +1,30 @@
+@CHARSET "UTF-8";
+
+<style>
+
+	body
+	{
+		background-color: blue;
+		color: white;
+	}
+	
+	#txtInput
+	{
+		background-color: red;
+		color: white;
+	}
+
+	p
+	{
+		border: 1px;
+		border-right: 5px;
+		padding-left: 100px;
+		margin: 15px;
+		background-color: yellow;
+		border-style: solid;
+		border-color: green;
+	
+	
+	}
+
+</style>

@@ -1,0 +1,198 @@
+@CHARSET "UTF-8";
+
+	
+
+	/*This div contains the top most section that has the day of the week along with the 
+	countdown timer that countsdown until the Friday of the week.*/
+	#div1-main{
+	
+		background-color:#3a5159 ;
+		width: auto;
+		height: 225px;
+		text-align: center;
+		margin-top: -30px;
+		margin-left: -8px;
+		margin-right: -5px;
+		color: #c1fbcc;
+		
+		z-index: 999;
+		position:relative;
+	}
+
+
+	#txtWeekDate {
+	
+		padding-top: 15px;
+		padding-left: 70px;
+		font-size:180%;
+	}
+	
+	
+		#divlinetop
+		{
+	
+		background-color:#c1fbcc ;
+		width:95%;
+		height: 2px;
+		margin-top:-23px;
+ 		margin-left: auto; 
+ 		margin-right: auto; 
+		z-index: 1000;
+		position:relative;
+		opacity: 0.2;
+		
+	}
+	
+	
+	#divDaysRemaining {
+	
+		background-color:transparent ;	
+		width: auto;
+		height: 107px;
+		margin-top: 40px;
+		margin-left: 70px;
+		margin-right: -5px;
+		color: #def0ff;
+		text-align: center;
+	}
+	
+	#txtDaysRemaining
+	{
+		padding-top: 14px;
+		font-size:200px;
+		margin-left:-540px;
+		margin-top: -90px;
+	}
+	
+	#txtDaysRemaining2
+	{
+		padding-top: 10px;
+		font-size:70px;
+		margin-left:110px;
+		margin-top: -370px;
+	}
+
+	#divDaysRemainingDetails {
+	
+		background-color:transparent ;	
+		width: auto;
+		height: 50px;
+		margin-top: 65px;
+		margin-left: -90px;
+		margin-right: -5px;
+		color: lightgrey ;
+		font-size:130%;
+		text-align: center;
+		opacity: .5;
+	}
+	
+	
+	#divTableSection {
+	
+		background-color:pink;
+		width: auto;
+		margin-left: -30px;
+		margin-right: -5px;
+		margin-top: -16px;
+		height: 402px;
+	
+	}
+
+	#divInProgressSection {
+	
+		background-color:#4f8578;
+		width: 50%;
+
+		margin-top: -34px;
+		height:785px;
+		float: left;		
+		
+	}
+
+	#divBacklogSection {
+	
+		background-color:#cbefdb;
+		width: 50%;
+		margin-top: -34px;
+		height: 785px;
+		
+		float: right;
+	
+	}
+
+	#divTitleForInProgress {
+	
+		background-color:#477a6e;
+		width: auto;
+		margin-top: -50px;
+		height: 40px;
+		margin-left:25px;
+		text-align: center;
+		color: white;
+	
+	}
+
+	#txtTitleForProgress
+	{
+		padding-top: -5px;
+		font-size:33px;
+	}
+
+	#divTitleForBackLog {
+	
+		background-color:#b0edcc;
+		width: auto;
+		margin-top: -50px;
+		height: 40px;
+		margin-left:3px;
+		text-align: center;
+		color: black;
+	
+	}
+
+	#txtTitleForBacklog
+	{
+		padding-top: -5px;
+		font-size:33px;
+	}
+
+	#divTableDataInProgress
+	{
+		padding-top: -5px;
+		font-size:23px;
+		margin-left: 23px;
+		background-color: pink;
+		overflow:auto; 
+		height:730px;
+	}
+
+
+	
+	table
+	{
+		padding-left: 20px;
+		width: 100%;
+		text-align: left;
+		font-size: 18px;
+	}
+	
+
+
+	.colType
+	{
+		width: 10%;
+
+	}
+
+	.colDescription
+	{
+		width: 75%;
+
+	}
+
+	.colOwner
+	{
+		width: 15%;
+
+	}
+
